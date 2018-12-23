@@ -4,6 +4,9 @@ import guru.springframework.norris.chuck.ChuckNorrisQuotes;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
+/*Annotations '@Configuration' and 'Bean' were commented to show how you can use xml-based configuration (in
+JokesappApplication was added @ImportResource annotation to import xml file with Spring configuration
+*/
 @Configuration
 public class ChuckConfiguration {
 
